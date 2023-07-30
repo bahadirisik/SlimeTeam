@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1d8ac43bcfb26b24387490fc2a006cde, type: 3}
+  m_Name: SoldierLevel2
+  m_EditorClassIdentifier: 
+  playerPrefab: {fileID: 7967755494433852718, guid: a9524bbdce7361544acaf88adf7f428d, type: 3}
+  playerDeathEffect: {fileID: 635759917345873800, guid: 5a0debc67f33bb74fbc4effcb8f075f5, type: 3}
+  playerHealth: 130
+  playerDamage: 30
+  priority: 1
+  playerFireRate: 0.7
+  minDistanceToAttack: 3
+  minDistanceToDamage: 3.2
+  playerMoveSpeed: 1
+  playerName: Soldier Level2
+  sprite: {fileID: 2680108033077670724, guid: 1411f27ef4074684eb6eaeaec1371c99, type: 3}

@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1d8ac43bcfb26b24387490fc2a006cde, type: 3}
+  m_Name: Mage
+  m_EditorClassIdentifier: 
+  playerPrefab: {fileID: 7967755494433852718, guid: 759f3c0809d27ec448d05dd6625ec234, type: 3}
+  playerDeathEffect: {fileID: 635759917345873800, guid: dce249e4de1785140bca29664c56d9c9, type: 3}
+  playerHealth: 70
+  playerDamage: 60
+  priority: 1
+  playerFireRate: 0.7
+  minDistanceToAttack: 13
+  minDistanceToDamage: 13
+  playerMoveSpeed: 3
+  playerName: Mage
+  sprite: {fileID: -2034433279184793256, guid: 8c5af0cd9d9892548bb09475cdc17939, type: 3}

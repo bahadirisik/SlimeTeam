@@ -1,0 +1,96 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &5013295346764066377
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3927907424955534075}
+  - component: {fileID: 2609087404014713346}
+  m_Layer: 0
+  m_Name: AudioManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3927907424955534075
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5013295346764066377}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2609087404014713346
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5013295346764066377}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c3ead4acc63c5f74384a3a635f78a46c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sounds:
+  - name: EnemyDeath
+    clip: {fileID: 8300000, guid: 4e85742d546a98f4abfce5a914d98520, type: 3}
+    volume: 0.3
+    pitch: 1
+    loop: 0
+    group: {fileID: 24300002, guid: 285b25acc0024864881a64ab63a03e97, type: 2}
+    source: {fileID: 0}
+  - name: Button
+    clip: {fileID: 8300000, guid: 8dc464b2f6a616346a6b938a3b2886e5, type: 3}
+    volume: 0.5
+    pitch: 1
+    loop: 0
+    group: {fileID: 24300002, guid: 285b25acc0024864881a64ab63a03e97, type: 2}
+    source: {fileID: 0}
+  - name: LevelCompleted
+    clip: {fileID: 8300000, guid: 59df6a30ce1f7fb42bccdf18a111dd26, type: 3}
+    volume: 0.5
+    pitch: 1
+    loop: 0
+    group: {fileID: 24300002, guid: 285b25acc0024864881a64ab63a03e97, type: 2}
+    source: {fileID: 0}
+  - name: LevelFailed
+    clip: {fileID: 8300000, guid: 8cae64ae541d0ee49ac0995fb8942d64, type: 3}
+    volume: 0.5
+    pitch: 1
+    loop: 0
+    group: {fileID: 24300002, guid: 285b25acc0024864881a64ab63a03e97, type: 2}
+    source: {fileID: 0}
+  - name: Merge
+    clip: {fileID: 8300000, guid: 29f7742866c6cb947bcc1a3639ecebe0, type: 3}
+    volume: 0.4
+    pitch: 1
+    loop: 0
+    group: {fileID: 24300002, guid: 285b25acc0024864881a64ab63a03e97, type: 2}
+    source: {fileID: 0}
+  - name: Upgrade
+    clip: {fileID: 8300000, guid: 103c00de581d0f5438c6a1d390fd3301, type: 3}
+    volume: 0.3
+    pitch: 1
+    loop: 0
+    group: {fileID: 24300002, guid: 285b25acc0024864881a64ab63a03e97, type: 2}
+    source: {fileID: 0}
+  - name: MainTheme
+    clip: {fileID: 8300000, guid: 1cd010552dfa13747ab9f37a396c5c42, type: 3}
+    volume: 0.4
+    pitch: 1
+    loop: 1
+    group: {fileID: 24300002, guid: 285b25acc0024864881a64ab63a03e97, type: 2}
+    source: {fileID: 0}

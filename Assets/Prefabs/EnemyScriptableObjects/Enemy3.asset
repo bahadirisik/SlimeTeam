@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7bf3750a8ce97e94c8b2b40eff7c8d86, type: 3}
+  m_Name: Enemy3
+  m_EditorClassIdentifier: 
+  enemyPrefab: {fileID: 202245357128689908, guid: f8da606fe47faaa4880f85a6354a5349, type: 3}
+  enemyDeathEffect: {fileID: 635759917345873800, guid: eba7cd3da4ff5bc408a44a2ea9355620, type: 3}
+  enemyHealth: 250
+  enemyDamage: 30
+  enemyMoveSpeed: 1
+  enemyFireRate: 1.5
+  minDistanceToAttack: 3
+  minDistanceToDamage: 3.2
+  enemyMoney: 75
+  enemyName: Enemy3
+  sprite: {fileID: -6694920914862994541, guid: bec29fb097e1c164d8bc879a3fb11f97, type: 3}

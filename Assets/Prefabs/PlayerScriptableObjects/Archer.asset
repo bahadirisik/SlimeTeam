@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1d8ac43bcfb26b24387490fc2a006cde, type: 3}
+  m_Name: Archer
+  m_EditorClassIdentifier: 
+  playerPrefab: {fileID: 7967755494433852718, guid: 62341322e6f3b2741a3d0b622799d867, type: 3}
+  playerDeathEffect: {fileID: 635759917345873800, guid: bb400c8763b02f84b902df2e15520675, type: 3}
+  playerHealth: 80
+  playerDamage: 25
+  priority: 1
+  playerFireRate: 1.5
+  minDistanceToAttack: 15
+  minDistanceToDamage: 15
+  playerMoveSpeed: 1
+  playerName: Archer
+  sprite: {fileID: 1266967510764743913, guid: e899f583a8c0000498046a58246c3233, type: 3}

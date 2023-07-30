@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1d8ac43bcfb26b24387490fc2a006cde, type: 3}
+  m_Name: TankSoldier
+  m_EditorClassIdentifier: 
+  playerPrefab: {fileID: 7967755494433852718, guid: 810d674aab01ad844b7e3986bd3ee71a, type: 3}
+  playerDeathEffect: {fileID: 635759917345873800, guid: 737609e2481262646916f46d518f1222, type: 3}
+  playerHealth: 350
+  playerDamage: 18
+  priority: 0
+  playerFireRate: 2
+  minDistanceToAttack: 3
+  minDistanceToDamage: 3.2
+  playerMoveSpeed: 1
+  playerName: Tank Soldier
+  sprite: {fileID: -5373732798962040925, guid: 6bc97410f6372f944bb5a065b1e4e391, type: 3}
