@@ -21,8 +21,6 @@ public class GameMaster : MonoBehaviour
         public float countdown;
     }
 
-    //private const string PLAYER_COIN_AMOUNT = "PlayerCoinAmount";
-
     [SerializeField] private int levelCompletedMoney;
 
     public enum GameState
@@ -46,16 +44,10 @@ public class GameMaster : MonoBehaviour
 
 	void Start()
     {
-        //currentCoin = PlayerPrefs.GetInt(PLAYER_COIN_AMOUNT);
         currentCoin = 0;
         countDownTimer = startCountDownTimer;
         gameState = GameState.CountDown;
 
-
-        /*OnCoinChange?.Invoke(this, new OnCoinIncreaseEventArgs
-        {
-            coin = currentCoin
-        });*/
     }
 
     // Update is called once per frame
@@ -102,7 +94,6 @@ public class GameMaster : MonoBehaviour
     public void ChangeCoin(int amount)
 	{
         currentCoin += amount;
-        //PlayerPrefs.SetInt(PLAYER_COIN_AMOUNT,currentCoin);
 
         OnCoinChange?.Invoke(this, new OnCoinIncreaseEventArgs
         {
